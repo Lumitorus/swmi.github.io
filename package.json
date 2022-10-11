@@ -17,6 +17,7 @@
     "audio-controls": "^1.0.6",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
     "framer-motion": "^7.5.3",
     "gh-pages": "^4.0.0",
     "playqueue": "^1.1.2",
