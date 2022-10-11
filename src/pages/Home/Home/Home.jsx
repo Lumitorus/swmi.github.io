@@ -1,5 +1,5 @@
 import React from 'react';
-import SideBar from '../../../Components/SideBar/SideBar';
+import SideBar from '../../../Components/SideBar/SideBar.jsx';
 import Player from '../../../Components/SideBar/Player/Player.jsx';
 import AudioSpectrum from 'react-audio-spectrum'
 import './Home.scss';
@@ -29,7 +29,6 @@ export default function Home() {
     setCurrentSong({ ...currentSong, "progress": ct / duration * 100, "length": duration })
 
   }
-
     return (
         <div className='home'>
             <SideBar />

@@ -2,8 +2,11 @@
   "name": "swmi",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://lumitorus.github.io/swmi.github.io",
+  "homepage": "/",
   "dependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-react": "^7.18.6",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@mui/material": "^5.10.8",
@@ -12,6 +15,8 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "audio-controls": "^1.0.6",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
     "framer-motion": "^7.5.3",
     "gh-pages": "^4.0.0",
     "playqueue": "^1.1.2",
@@ -22,8 +27,12 @@
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
     "sass": "^1.55.0",
+    "style-loader": "^3.3.1",
     "styled-components": "^5.3.6",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,7 +40,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "startw": "webpack-dev-server --mode development --open --hot",
+    "buildw": "webpack --mode production",
+    "deploygh": "gh-pages -d build",
+    "buildgh": "react-scripts build && cp build/index.html build/404.html"
   },
   "eslintConfig": {
     "extends": [
@@ -50,5 +63,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0"
   }
 }

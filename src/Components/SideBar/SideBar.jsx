@@ -1,6 +1,5 @@
 import React from 'react';
 import "./SideBar.scss";
-import { Example } from "./Example";
 import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Link from '@mui/material/Link';

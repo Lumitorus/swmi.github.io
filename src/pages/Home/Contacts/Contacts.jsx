@@ -1,5 +1,5 @@
 import React from 'react';
-import SideBar from '../../../Components/SideBar/SideBar';
+import SideBar from '../../../Components/SideBar/SideBar.jsx';
 import './Contacts.scss';
 export default function Contacts() {
     return (
