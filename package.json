@@ -2,7 +2,7 @@
   "name": "swmi",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/",
+  "homepage": "http://lumitorus.github.io/swmi.github.io",
   "dependencies": {
     "@babel/core": "^7.19.3",
     "@babel/preset-env": "^7.19.4",
