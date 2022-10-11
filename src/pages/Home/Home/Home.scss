@@ -11,13 +11,13 @@
     width: 80%;
     span{
         position: fixed;
-        left: 0px;
+        left: 1px;
         right: 0px;
         bottom: -10px;
         width: 100%;
         canvas {
             width: 100%;
-
+            height: 100%;
         }
     }
     
