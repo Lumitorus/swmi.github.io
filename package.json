@@ -44,8 +44,10 @@
     "deploy": "gh-pages -d build",
     "startw": "webpack-dev-server --mode development --open --hot",
     "buildw": "webpack --mode production",
+    "_comment": "deploygh это для отправки на гит",
     "deploygh": "gh-pages -d build",
-    "buildgh": "react-scripts build && cp build/index.html build/404.html"
+    "_comment": "buildgh это для сборки перед отправкой на гит",
+    "buildgh": "react-scripts build && copy build/index.html build/404.html"
   },
   "eslintConfig": {
     "extends": [
