@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/swmi.github.io/static/css/main.7f34cd3e.css",
+    "main.js": "/swmi.github.io/static/js/main.bc9a2788.js",
+    "static/media/0001-Bad Boys Blue-A Train To Nowhere.wav": "/swmi.github.io/static/media/0001-Bad Boys Blue-A Train To Nowhere.52e05efa713d10cae123.wav",
+    "static/media/jpg": "/swmi.github.io/static/media/2aabcc6a8785c753ebbbf7ffa7a8bf8a.7ab5b7b78706d443e5ff.jpg",
+    "index.html": "/swmi.github.io/index.html",
+    "main.7f34cd3e.css.map": "/swmi.github.io/static/css/main.7f34cd3e.css.map",
+    "main.bc9a2788.js.map": "/swmi.github.io/static/js/main.bc9a2788.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f34cd3e.css",
+    "static/js/main.bc9a2788.js"
+  ]
+}
