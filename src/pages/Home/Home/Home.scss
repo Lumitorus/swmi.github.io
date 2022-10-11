@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.home {
+    padding-top: 1rem;
+    font-family: 'Caveat', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 2.2rem;
+    width: 80%;
+    span{
+        position: fixed;
+        left: 0px;
+        right: 0px;
+        bottom: -10px;
+        width: 100%;
+        canvas {
+            width: 100%;
+
+        }
+    }
+    
+}
+
