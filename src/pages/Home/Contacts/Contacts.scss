@@ -3,11 +3,13 @@
 .contacts {
     font-size: 2rem;
     font-family: 'Caveat', cursive;
-    padding-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 2.2rem;
+    label {
+        white-space: nowrap;
+    }
     .audio {
         background-color: red;
     }

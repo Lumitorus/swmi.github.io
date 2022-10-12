@@ -1,4 +1,4 @@
-import song from "../../../pages/Home/Music/0001-Bad Boys Blue-A Train To Nowhere.wav";
+import song from "../../../pages/Home/Music/j^p^n - Amend.mp3";
 
 export const songsdata = [
   {
@@ -6,7 +6,7 @@ export const songsdata = [
     url: "https://beardbarnmusicbucket.s3.amazonaws.com/The+Wild+Horse",
   },
   {
-    title: "dasda",
+    title: "j^p^n - Amend",
     url: song,
   },
   {
